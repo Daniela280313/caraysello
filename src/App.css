@@ -1,0 +1,42 @@
+.content_all {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  overflow: scroll;
+}
+
+.content_all .title {
+  text-align: center;
+}
+
+.content_all .form-group.mb-2 {
+  width: 55%;
+  margin: auto;
+  position: relative;
+  top: 43px;
+}
+
+.content_all .monedas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.content_all .monedas img:hover {
+  transform: scale(1.1);
+  translate: 5s;
+}
+
+.content_all .monedas img {
+  height: 170px;
+  width: 180px;
+}
+
+.refresh {
+  justify-content: space-around;
+  align-content: center;
+}
